@@ -1,0 +1,147 @@
+/*-----SMALL SCREENS------*/
+@media only screen and (max-width: 767px){
+    .image-box{
+        background-image: url("src\assets\images\image 1.png");
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        background-attachment: fixed;
+        opacity: 0.79;
+    }
+    .bg-dark{
+        background: transparent  !important;   
+    }
+    .bg-dark.scrolled{
+        background: white !important;
+    }
+    .nav-link{
+        color: black !important;
+    }
+    .navbar-toggler{
+        background-color: #737272cc !important;
+    }
+    .blue-box{
+        width: 93%;
+        position: absolute;
+        top: 52%;
+        height: 8em;
+        opacity: 0.8;
+        box-shadow: -13px 8px 7px 6px #48658dba;
+    }
+    .text-box{
+        position: absolute;
+        top: 53%;
+        left: 5%;
+        color: black;
+        font-size: 55px;
+        font-weight: 500;
+        line-height: 1;
+    }
+
+    .btnApp{
+        position: absolute;
+        top: 72%;
+        left: 4%;
+        border: 2px solid black;
+        border-radius: 40px;
+        padding: 10px;
+    }
+}
+
+/*-----TAB SCREENS--------*/
+@media only screen and (min-width: 767px){
+    .image-box{
+        background-image: url("src\assets\images\image 1.png");
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        background-attachment: fixed;
+        opacity: 0.79;
+    }
+    .bg-dark{
+        background: transparent  !important;   
+    }
+    .bg-dark.scrolled{
+        background: white !important;
+    }
+    .nav-link{
+        color: black !important;
+    }
+    .navbar-toggler{
+        background-color: #737272cc !important;
+    }
+    .blue-box{
+        width: 62%;
+        position: absolute;
+        top: 53%;
+        height: 9em;
+        opacity: 0.8;
+        box-shadow: -13px 8px 7px 6px #48658dba;
+    }
+    .text-box{
+        position: absolute;
+        top: 53%;
+        left: 5%;
+        color: black;
+        font-size: 65px;
+        font-weight: 500;
+        line-height: 1;
+    }
+
+    .btnApp{
+        position: absolute;
+        top: 72%;
+        left: 4%;
+        border: 2px solid black;
+        border-radius: 40px;
+        padding: 10px;
+    }
+    
+}
+
+/*-----BIG SCREENS--------*/
+@media only screen and (min-width: 1200px){
+    .image-box{
+        background-image: url("src\assets\images\image 1.png");
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        background-attachment: fixed;
+        opacity: 0.79;
+    }
+    .bg-dark{
+        background: transparent  !important;   
+    }
+    .bg-dark.scrolled{
+        background: white !important;
+    }
+    .nav-link{
+        color: black !important;
+    }
+    .blue-box{
+        width: 55%;
+        position: absolute;
+        top: 54%;
+        height: 20%;
+        opacity: 0.8;
+        box-shadow: -13px 8px 7px 6px #48658dba;
+    }
+    .text-box{
+        position: absolute;
+        top: 53%;
+        left: 5%;
+        color: black;
+        font-size: 65px;
+        font-weight: 500;
+        line-height: 1;
+    }
+
+    .btnApp{
+        position: absolute;
+        top: 76%;
+        left: 5%;
+        border: 2px solid black;
+        border-radius: 40px;
+        padding: 10px;
+    }
+}
