@@ -1,7 +1,9 @@
-.grow:hover{
-   transform: scale(0.8);
-   transition: transform 0.5s ease;
+.grow {
+ transition: all .1s ease-in-out;
 }
+.grow:hover {
+     transform: scale(1.2);
+   }
 .button{
     color: #063A7F;
     bottom: 5px;
@@ -78,7 +80,10 @@
     background:#F4F4F4 ;
     padding: 5px 15px;
  }
-
+ .link:hover,.link5:hover{
+    text-decoration: none;
+ }
+ 
  /* Large (lg) devices (desktops, 992px and up) */
 @media (max-width: 992px) {
      .acadbox h2{

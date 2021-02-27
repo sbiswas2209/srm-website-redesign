@@ -1,4 +1,9 @@
-
+.grow {
+	transition: all .1s ease-in-out;
+   }
+   .grow:hover {
+		transform: scale(1.2);
+	  }
 .research{
     display: inline-block; 
     font-family: Work Sans;
@@ -62,9 +67,9 @@
  /* The colour of the indicators */
  .blog .carousel-indicators li {
      background: #808080;
-     border-radius: 30%;
-     width: 10px;
-     height: 10px;
+     border-radius: 50%;
+     width: 15px;
+     height: 15px;
  }
  .blog .carousel-indicators .active {
  background:#063A7F ;
