@@ -1,0 +1,174 @@
+
+.research{
+    display: inline-block; 
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 63px;
+    line-height: 74px;
+    color: #063A7F;
+ }
+ .research_p{
+     display: inline;;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 0;
+    color: #808080;
+ }
+ .card-title{
+     font-family: Work Sans;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 23px;
+     color: #063A7F;
+  }
+  .card-text{
+     margin-top: 3vh;
+     font-family: Work Sans;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 23px;
+  }
+ .blue_border{
+     width: 454px;
+     height: 10px;
+     left: 0px;
+     background: #063A7F;
+  }
+  .blog .carousel-indicators {
+     left: 0;
+     top: auto;
+     bottom: -50px;
+ }
+ .carousel-inner{
+ margin-top: 50px;
+ }
+ .card{
+      background: #F4F4F4;
+ }
+ .button{
+     background: #063A7F;
+     color:white;
+     outline: none;
+ }
+ .button:hover:focus{
+     background: #808080;
+     color:white;
+     outline: none;
+ }
+ /* The colour of the indicators */
+ .blog .carousel-indicators li {
+     background: #808080;
+     border-radius: 30%;
+     width: 10px;
+     height: 10px;
+ }
+ .blog .carousel-indicators .active {
+ background:#063A7F ;
+ }
+ @media (max-width: 992px) {
+     .research_p{
+         display: block;
+         height: 5%;
+         font-weight: 600;
+         font-size: 20px;
+         line-height: 40px;
+         margin-top: 2vh;
+      }
+      .research{
+         height: 40px;
+         display: block;
+         font-weight: 600;
+         font-size: 55px;
+         line-height: 70px; 
+      }
+     .card-title{
+         margin-top: 2vh;
+         font-weight: 600;
+         font-size: 20px;
+      }
+     
+      .card-text{
+         margin-top: 3vh;
+         line-height: 23px;
+      }
+      .blue_border{
+         width: 100%;
+         height:5px;
+      }
+     
+ }
+ 
+ /* Medium (md) devices (tablets, 768px and up) */
+ @media (max-width: 768px) { 
+    .card-title{
+        font-size: 30px;
+     }
+     .research{
+       font-size: 50px;
+    }
+    .research_p{
+     font-size: 15px;
+     line-height: 25px;
+     margin-top: 3vh;
+    }
+    .card{
+        margin-top: 5vh;
+    }
+    .carousel-item{
+        justify-content: center ;
+    }
+     
+    
+ }
+ /* Small (sm) devices (landscape phones, 576px and up) */
+ @media (max-width: 576px) {
+   
+     .card-text{
+        margin-top: 4vh;
+        line-height: 23px;
+     }
+     .research_p{
+       display: block;
+       height: 5%;
+       font-size: 18px;
+       margin-top: 8%; 
+       line-height: 30px;
+       text-align: center;
+     }
+    .research{
+       height: 40px;
+       margin-top: 2vh; 
+       font-size: 48px;
+       line-height: 50px; 
+       text-align: center; 
+    }
+    .blue_border{
+       display:block;
+       width: 100%;
+       height: 6px;
+    }
+ }
+ @media (max-width: 330px){
+     .research_p{
+         display: block;
+         height: 5%;
+         font-weight: 600;
+         font-size: 18px;
+         margin-top: 50px; 
+         line-height: 30px;
+         text-align: center;
+       }
+      .research{
+         height: 40px;
+         display: block;
+         font-weight: 600;
+         margin-top: 2vh; 
+         font-size: 48px;
+         line-height: 50px; 
+         text-align: center; 
+      }
+ }
