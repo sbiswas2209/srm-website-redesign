@@ -1,3 +1,13 @@
+li :hover{
+    background-color: #8080806b;
+    border-radius: 4px;
+    transition: 0.1s ease;
+}
+.itemActive{
+    background-color: #8080806b;
+    border-radius: 4px;
+    transition: 0.1s ease;
+}
 /*-----SMALL SCREENS------*/
 @media only screen and (max-width: 767px){
     .image-box{
@@ -37,15 +47,22 @@
         font-weight: 500;
         line-height: 1;
     }
-
-    .btnApp{
+    .container{
         position: absolute;
-        top: 72%;
-        left: 4%;
-        border: 2px solid black;
-        border-radius: 40px;
-        padding: 10px;
+        top: 75%;
     }
+    .row{
+        padding: 0 2%;
+    }
+    .startApplicationbtn{
+        border-radius: 42px;
+        background-color: #195aa0a1;
+    }
+    .startApplicationbtn:hover{
+        transform: scale(1.01);
+        transition: 0.2s ease;
+    }
+
 }
 
 /*-----TAB SCREENS--------*/
@@ -87,15 +104,29 @@
         font-weight: 500;
         line-height: 1;
     }
-
-    .btnApp{
-        position: absolute;
-        top: 72%;
-        left: 4%;
-        border: 2px solid black;
-        border-radius: 40px;
-        padding: 10px;
+    ul{
+        width: 60%;
     }
+    li{
+        margin-left: 1%;
+    }
+    .container{
+        position: absolute;
+        top: 82%;
+    }
+    .row{
+        padding: 0 2%;
+        width: 60%;
+    }
+    .startApplicationbtn{
+        border-radius: 42px;
+        background-color: #195aa0a1;
+    }
+    .startApplicationbtn:hover{
+        transform: scale(1.03);
+        transition: 0.2s ease;
+    }
+
     
 }
 
@@ -119,10 +150,10 @@
         color: black !important;
     }
     .blue-box{
-        width: 55%;
+        width: 45%;
         position: absolute;
-        top: 54%;
-        height: 20%;
+        top: 53%;
+        height: 9em;
         opacity: 0.8;
         box-shadow: -13px 8px 7px 6px #48658dba;
     }
@@ -135,13 +166,27 @@
         font-weight: 500;
         line-height: 1;
     }
-
-    .btnApp{
-        position: absolute;
-        top: 76%;
-        left: 5%;
-        border: 2px solid black;
-        border-radius: 40px;
-        padding: 10px;
+    ul{
+        width: 60%;
     }
+    li{
+        margin-left: 1%;
+    }
+    .container{
+        position: absolute;
+        top: 79%;
+    }
+    .row{
+        padding: 0 2%;
+        width: 48%;
+    }
+    .startApplicationbtn{
+        border-radius: 42px;
+        background-color: #195aa0a1;
+    }
+    .startApplicationbtn:hover{
+        transform: scale(1.03);
+        transition: 0.2s ease;
+    }
+
 }
