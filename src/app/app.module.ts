@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { AcademicsComponent } from './academics/academics.component';
 import { ResearchComponent } from './research/research.component';
 import { CampusComponent } from './campus/campus.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AcademicsComponent,
     ResearchComponent,
-    CampusComponent
+    CampusComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

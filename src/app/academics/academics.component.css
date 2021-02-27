@@ -1,4 +1,7 @@
-
+.grow:hover{
+   transform: scale(0.8);
+   transition: transform 0.5s ease;
+}
 .button{
     color: #063A7F;
     bottom: 5px;
