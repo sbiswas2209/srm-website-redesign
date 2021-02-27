@@ -7,6 +7,8 @@ import { AcademicsComponent } from './academics/academics.component';
 import { ResearchComponent } from './research/research.component';
 import { CampusComponent } from './campus/campus.component';
 import { HomeComponent } from './home/home.component';
+import { AdmissionComponent } from './admission/admission.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { HomeComponent } from './home/home.component';
     AcademicsComponent,
     ResearchComponent,
     CampusComponent,
-    HomeComponent
+    HomeComponent,
+    AdmissionComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

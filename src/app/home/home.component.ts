@@ -13,9 +13,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    $(window).scroll(function(){
-      $('nav').toggleClass('scrolled', $(this).scrollTop() > 10);
-  });
+    
   }
 
 }

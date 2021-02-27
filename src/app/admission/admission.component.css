@@ -1,0 +1,153 @@
+.image-box{
+    background-image: url("src\assets\images\image 1.png");
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+    background-attachment: fixed;
+    opacity: 0.71;
+}
+.admissionSection{
+    margin-top: 2%;
+    position: relative;
+}
+.blue-box{
+    position: absolute;
+    width: 40%;
+    top: 76%;
+    left: 12px;
+    opacity: 0.8;
+}
+
+/*-----SMALL SCREEN------*/
+@media only screen and (max-width: 767px){
+    .text-box{
+        padding-top: 65%;
+        color: white;
+        font-size: 33px;
+        font-weight: 800;
+    }
+    .imgAdm{
+        width: 42%;
+        padding: 2% 1%;
+        border-bottom: 2px solid #063a7f;
+    }
+    .imgUnder{
+        width: 43%;
+        position: absolute;
+        top: 71%;
+        left: 1%;
+    }
+    .text{
+        width: 57%;
+        padding: 2%;
+    }
+    .textImg{
+        position: absolute;
+        top: 80%;
+        left: 9%;
+        width: 26%;
+    }
+    .right-blue-box{
+        position: absolute;
+        width: 36%;
+        right: 3.4%;
+        top: 87%;
+        opacity: 0.8;
+    }
+    .apply{
+        position: absolute;
+        width: 20%;
+        right: 9%;
+        top: 94%;
+    }
+}
+
+/*-----TAB SCREEN------*/
+@media only screen and (min-width: 768px){
+    .text-box{
+        padding-top: 34%;
+        color: white;
+        font-size: 53px;
+        font-weight: 800;
+    }
+    .imgAdm{
+        width: 32%;
+        padding: 2% 1%;
+        border-bottom: 2px solid #063a7f;
+    }
+    .imgUnder{
+        width: 32%;
+        position: absolute;
+        top: 76%;
+        left: 1%;
+    }
+    .text{
+        width: 65%;
+        padding: 2%;
+    }
+    .blue-box{
+        left: 4.66%;
+    }
+    .textImg{
+        position: absolute;
+        top: 80%;
+        left: 93px;
+        width: 26%;
+    }
+    .right-blue-box{
+        position: absolute;
+        width: 31%;
+        right: 4.9%;
+        top: 88%;
+        opacity: 0.8;
+    }
+    .apply{
+        position: absolute;
+        width: 20%;
+        right: 9%;
+        top: 92%;
+    }
+}
+
+/*-----BIG SCREEN------*/
+@media only screen and (min-width: 1200px){
+    .text-box{
+        padding-top: 24%;
+        color: white;
+        font-size: 53px;
+        font-weight: 800;
+    }
+    .imgAdm{
+        width: 28%;
+        padding: 3% 2%;
+        border-bottom: 2px solid #063a7f;
+    }
+    .imgUnder{
+        width: 26%;
+        position: absolute;
+        top: 79%;
+        left: 2%;
+    }
+    .blue-box{
+        left: 5.9%;
+    }
+    .textImg{
+        position: absolute;
+        top: 80%;
+        left: 11%;
+        width: 26%;
+    }
+    .right-blue-box{
+        position: absolute;
+        width: 30%;
+        right: 5.8%;
+        top: 89%;
+        opacity: 0.8;
+    }
+    .apply{
+        position: absolute;
+        width: 20%;
+        right: 9%;
+        top: 94%;
+    }
+}

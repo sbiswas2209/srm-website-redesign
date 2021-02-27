@@ -1,0 +1,58 @@
+li :hover{
+    background-color: #8080806b;
+    border-radius: 4px;
+    transition: 0.1s ease;
+}
+.itemActive{
+    background-color: #8080806b;
+    border-radius: 4px;
+    transition: 0.1s ease;
+}
+.search{
+    border: 1px solid black;
+    color: #000;
+    font-weight: 500;
+}
+.search:hover{
+    border: 1px solid #8080806b;
+    color: #000;
+    background-color: #8080806b;
+}
+.image-box{
+    background-image: url("src\assets\images\image 1.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    opacity: 0.79;
+}
+.bg-dark{
+    background: transparent  !important;   
+}
+.bg-dark.scrolled{
+    background: white !important;
+}
+.nav-link{
+    color: black !important;
+    font-weight: 500;
+    font-size: 118%;
+}
+.navbar-toggler{
+    background-color: #737272cc !important;
+}
+@media only screen and (min-width: 767px){
+    ul{
+        width: 60%;
+    }
+    li{
+        margin-left: 1%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    ul{
+        width: 60%;
+    }
+    li{
+        margin-left: 1%;
+    }
+}
