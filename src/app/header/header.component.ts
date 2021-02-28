@@ -11,7 +11,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     $(window).scroll(function(){
-      $('nav').toggleClass('scrolled', $(this).scrollTop() > 10);
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
   });
   }
 
