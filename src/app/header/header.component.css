@@ -47,6 +47,11 @@ li :hover{
     .bg-dark{
         background: #063a7f !important;   
     }
+    .nav-link{
+        color: white !important;
+        font-weight: 500;
+        font-size: 118%;
+    }
 }
 @media only screen and (min-width: 768px){
     ul{
