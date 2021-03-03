@@ -40,15 +40,15 @@ li :hover{
     font-weight: 500;
     font-size: 118%;
 }
-.navbar-toggler{
-    background-color: #737272cc !important;
+.navbar-toggler-icon{
+    color: black !important;
 }
 @media only screen and (max-width: 767px){
     .bg-dark{
         background: #063a7f !important;   
     }
     .nav-link{
-        color: white !important;
+        color: rgb(10, 10, 10) !important;
         font-weight: 500;
         font-size: 118%;
     }
