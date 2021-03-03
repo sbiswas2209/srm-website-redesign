@@ -24,7 +24,7 @@ footer{
   }
   hr.light{
    border-top:1px solid #d5d5d5;
-   width:75%;
+   width:100%;
    margin-top:.8rem;
   }
   footer a {
@@ -32,7 +32,7 @@ footer{
   }
   hr.light-100{
    border-top:1px solid #d5d5d5;
-   width:75%;
+   width:100%;
    margin-top:.8rem;
    margin-bottom:1rem;
   }
