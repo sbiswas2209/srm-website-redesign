@@ -1,0 +1,159 @@
+.grow {
+ transition: all .1s ease-in-out;
+}
+.grow:hover {
+     transform: scale(1.2);
+   }
+.button{
+    color: #063A7F;
+    bottom: 5px;
+    right: 50px;
+    position: absolute;
+}
+.acadbox{
+    margin: 5vh 2vw 0 0;
+    background: #F4F4F4;
+}
+.acadbox img{
+   width: 100%;
+   height:100%;
+}
+.acadbox h2{
+    margin-top: 10vh;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 98.3%;
+    color: #063A7F;
+ }
+ .acadbox p{
+    margin-top: 5vh;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+ }
+ .blue_design1{
+    position: absolute;
+    width: 253px;
+    height: 33px;
+    left: 15px;;
+    bottom:0;
+    color: white;
+    background: #063A7F;
+    padding-left: 20px;
+ }
+ .academics{
+     display: inline-block;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 63px;
+    line-height: 74px;
+    color: #063A7F;
+ }
+ .acad_p{
+     display: inline;;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 0;
+    color: #808080;
+ }
+ .blue_border{
+    width: 454px;
+    height: 10px;
+    left: 0px;
+    background: #063A7F;
+ }
+ .link,.link5{
+    margin-top: 20px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    color: #063A7F;
+    background:#F4F4F4 ;
+    padding: 5px 15px;
+ }
+ .link:hover,.link5:hover{
+    text-decoration: none;
+ }
+ 
+ /* Large (lg) devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+     .acadbox h2{
+         margin-top: 2vh;
+         font-weight: 600;
+         font-size: 35px;
+      }
+      .acadbox p{
+         margin-top: 4vh;
+         line-height: 23px;
+      }
+      .blue_design1{
+         width: 60%;
+         height: 16%; 
+      }
+     
+ }
+
+/* Medium (md) devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .acadbox h2{
+        font-size: 30px;
+     }
+     .academics{
+       font-size: 55px;
+       margin: 0;
+    }
+     .blue_design1{
+        height: 8%; 
+     }
+    .blue_border{
+       width: 400px;
+    }
+}
+
+/* Small (sm) devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+   
+     .acadbox p{
+        margin-top: 4vh;
+        line-height: 23px;
+     }
+     .blue_design1{
+        width: 50%;
+        height: 25px; 
+     }
+     .acad_p{
+       display: block;
+       height: 5%;
+       font-weight: 600;
+       font-size: 24px;
+       line-height: 65px;
+       text-align: center;
+       
+    }
+    .academics{
+       height: 40px;
+       display: block;
+       font-weight: 600;
+       font-size: 55px;
+       line-height: 70px; 
+       text-align: center; 
+    }
+    .blue_border{
+        display:block;
+       width: 100%;
+       height: 6px;
+    }
+ }
+
+
+
+ 
