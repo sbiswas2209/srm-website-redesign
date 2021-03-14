@@ -1,0 +1,506 @@
+
+.lat
+{
+    color: #063A7F;
+    font-size: 55px; 
+    font-weight: 600;
+    font-family: 'Work Sans';
+    border-bottom-style: solid;
+    border-bottom-color: #063A7F;
+    border-bottom-width: 10px;
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 0px;
+    webkit-clip-path: polygon(100% 0, 100% 65%, 54% 100%, 0 100%, 0 0); clip-path: polygon(100% 0, 100% 65%, 94% 100%, 0 100%, 0 0);
+}
+.more1
+{
+    font-size: 20px;
+    color: gray;
+    font-weight: 600;
+    position: absolute;
+    top: 6%;
+    left: 51%;
+}
+.card
+{
+    background-color: #f4f4f4;
+    /* margin-left: 5px; */
+    margin-top: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+.newsimg
+{
+    height: 295px;
+    width: 444px;
+}
+.newstxt1
+{
+    float: right;
+    text-align: left;
+    font-size: 25px;
+    width: 45%;
+    color: #063A7F;
+    font-weight: 600;
+    margin-top: 30px;
+    line-height: normal;
+}
+.newstxt2
+{
+    font-size: 20px;
+    color: black;
+    font-weight: 100;
+    padding-top: 30px;
+}
+.more
+{
+    font-weight: 300;
+    float: right;
+    font-size: 15px;
+    color: #063A7F;
+    position: absolute;
+    bottom: 1%;
+    right: 5%; 
+}
+.au
+{
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+#aubox
+{
+    margin-top: -80px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #063A7F;
+}
+.srmjee
+{
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.chance
+{
+    font-size: 25px;
+    color: #063A7F;
+    background-color: white;
+    font-weight: 600;
+    padding-left: 10px;
+    border-radius: 5px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.impor
+{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-left: 190px;
+    margin-right: 190px;
+    padding: 20px;
+}
+.sop
+{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+}
+.whats
+{
+    font-size: 20px;
+    color: gray;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline;
+}
+.srme
+{
+    margin-top: 100px;
+    color: #063A7F;
+    font-size: 55px; 
+    font-weight: 600;
+    font-family: 'Work Sans';
+    border-bottom-style: solid;
+    border-bottom-color: #063A7F;
+    border-bottom-width: 10px;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 0px;
+    webkit-clip-path: polygon(100% 0, 100% 65%, 54% 100%, 0 100%, 0 0); clip-path: polygon(100% 0, 100% 65%, 94% 100%, 0 100%, 0 0);
+}
+/* .inc
+{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #063A7F;
+    line-height: normal;
+}
+.orga
+{
+    text-align: center;
+    color: #545454;
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 500;
+}
+.date1
+{
+    color: #808080;
+    text-align: center;
+}
+.date
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #063A7F;
+    padding: 20px;
+    width: 20%;
+} */
+.hope3
+{
+    display: flex;
+    margin-left: 40px;
+    border-bottom: solid #808080 1px;
+    margin-top: 10px;
+}
+.col
+{
+    flex: 1;
+    /* border: #063A7F solid; */
+}
+.longcol
+{
+    flex: 4;
+    /* border: black solid; */
+}
+.date
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #063A7F;
+    padding: 10px;
+    line-height: normal;
+    webkit-clip-path: polygon(100% 0, 100% 65%, 24% 100%, 0 100%, 0 0); clip-path: polygon(75% 0%, 91% 65%, 100% 100%, 0 100%, 0 0);
+}
+.inc
+{
+    font-size: 20px;
+    color: #063A7F;
+    font-weight: 600;
+    line-height: 15px;
+    margin-left: 5px;
+}
+.orga
+{
+    font-size: 15px;
+    color: #545454;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5px;
+}
+.date1
+{
+    font-size: 12px;
+    color: #808080;
+    line-height: normal;
+    margin-left: 5px;
+}
+@media screen and (max-width:1270px)
+{
+    .hope3
+    {
+        margin-top: 30px;
+        margin-right: 40px;
+    }
+    .inc
+    {
+        margin-left: 15px;
+    }
+    .orga
+    {
+        margin-left: 15px;
+    }
+    .date1
+    {
+        margin-left: 15px;
+    }
+    .lat
+    {
+        font-size: 40px;
+        padding-left: 20px;
+        width: 30%;
+        border-bottom-width: 8px;
+    }
+    .srme
+    {
+        font-size: 40px;
+        padding-left: 20px;
+        width: 60%;
+        border-bottom-width: 8px;
+    }
+    #aubox
+    {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    .more1
+    {
+        display: none;
+    }
+}
+@media screen and (max-width:800px)
+{
+    .lat
+    {
+        font-size: 40px;
+        padding-left: 10px;
+        width: 35%;
+        border-bottom-width: 8px;
+    }
+    .newsimg
+    {
+        height: 255px;
+        width: 400px;
+    }
+    .srme
+    {
+        font-size: 40px;
+        padding-left: 10px;
+        width: 75%;
+        border-bottom-width: 8px;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .hope3
+    {
+        margin-top: 20px;
+    }
+    .date
+    {
+        font-size: 18px;
+        padding: 11px;
+    }
+    .col
+    {
+        flex: 1.2;
+    }
+    .lat
+    {
+        font-size: 25px;
+        padding-left: 20px;
+        width: 35%;
+        border-bottom-width: 8px;
+    }
+    .newsimg
+    {
+        height: 150px;
+        width: 250px;
+    }
+    .newstxt1
+{
+    padding-right: 5px;
+    float: right;
+    text-align: left;
+    font-size: 15px;
+    width: 45%;
+    color: #063A7F;
+    font-weight: 600;
+    margin-top: 30px;
+    line-height: normal;
+}
+.newstxt2
+{
+    font-size: 10px;
+    color: black;
+    font-weight: 100;
+    padding-top: 30px;
+}
+.more
+{
+    font-weight: 300;
+    float: right;
+    font-size: 8px;
+    color: #063A7F;
+    position: absolute;
+    bottom: 1%;
+    right: 5%;
+}
+.au
+{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.impor
+{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 20px;
+}
+.srmjee
+{
+    font-size: 20px;
+}
+.chance
+{
+    font-size: 20px;
+}
+.srme
+    {
+        font-size: 25px;
+        padding-left: 20px;
+        width: 75%;
+        border-bottom-width: 8px;
+    }
+    .whats
+    {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:450px)
+{
+    .hope3
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .date
+    {
+        font-size: 10px;
+    }
+    .inc
+    {
+        font-size: 15px;
+        line-height: 7px;
+    }
+    .orga
+    {
+        font-size: 12px;
+        line-height: 5px;
+    }
+    .date1
+    {
+        font-size: 10px;
+    }
+    .lat
+    {
+        font-size: 20px;
+        padding-left: 10px;
+        width: 35%;
+        border-bottom-width: 5px;
+    }
+    .srme
+    {
+        font-size: 20px;
+        padding-left: 10px;
+        width: 75%;
+        border-bottom-width: 5px;
+    }
+    .whats
+    {
+        font-size: 10px;
+    }
+    .newsimg
+    {
+        height: 100px;
+        width: 200px;
+    }
+    .newstxt1
+    {
+        font-size: 11px;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .newstxt2
+    {
+        font-size: 8px;
+    }
+    .au
+    {
+        font-size: 20px;
+    }
+    .srmjee
+    {
+        font-size: 15px;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .chance
+    {
+        font-size: 15px;
+    }
+    .impor
+    {
+        font-size: 22px;
+        padding: 10px;
+    }
+    .sop
+    {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:390px)
+{
+    .lat
+    {
+        font-size: 17px;
+        padding-left: 10px;
+        width: 35%;
+        border-bottom-width: 5px;
+    }
+    .srme
+    {
+        font-size: 17px;
+        padding-left: 10px;
+        width: 75%;
+        border-bottom-width: 5px;
+    }
+    .newsimg
+    {
+        width: 170px;
+    }
+}

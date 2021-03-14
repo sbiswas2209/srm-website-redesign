@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { AdmissionComponent } from './admission/admission.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { EventsComponent } from './events/events.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     AdmissionComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,
